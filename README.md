@@ -6,7 +6,7 @@
 
 **Status:** <experimental | in development | stable>
 
-Part of [Helix](https://github.com/helix-bedrock), an open-source Minecraft: Bedrock
+Part of [Helix](https://github.com/helix-bedrock), a source-available Minecraft: Bedrock
 Edition server engine in Go.
 
 ## Install
@@ -33,5 +33,12 @@ AI-assisted contributions follow the
 
 ## License
 
-<MIT | GPL-3.0>. See [`LICENSE`](LICENSE). Ported code and its sources are listed
-in [`CREDITS.md`](CREDITS.md).
+Noncommercial use only: [PolyForm Noncommercial 1.0.0](LICENSE) with Helix's
+[extra permissions](ADDITIONAL-PERMISSIONS.md). Anyone may use it, run servers with it
+(even ones that make money) and sell their own plugins, but nobody may sell Helix or its
+code. Helix's game behaviour is re-engineered from Minecraft's Bedrock Dedicated Server;
+see [NOTICE.md](NOTICE.md). Not an official Minecraft product. Not approved by or
+associated with Mojang or Microsoft.
+
+Code first imported from another project keeps its original license; list it in
+[`CREDITS.md`](CREDITS.md) and put its license in `licenses/`.
